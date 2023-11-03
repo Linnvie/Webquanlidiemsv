@@ -1,0 +1,31 @@
+.wrapper-bangdiem {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.alert-container {
+  position: fixed;
+  width: 60%;
+  top: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 9999; 
+}
+
+.desc-bangdiem {
+    margin-left: 20%;
+    display: flex;
+}
+
+.table-bangdiem {
+    // margin-top: 20px;
+}
+.head-bd{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #9fd7f9;
+    font-weight: bold;
+}

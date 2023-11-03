@@ -1,0 +1,53 @@
+.btn-edit {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: orange;
+}
+
+.alert-container {
+  position: fixed;
+  top: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  z-index: 9999; 
+}
+
+.btn-delete {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: red;
+}
+.modal-user-container {
+     .modal-user-body{
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+            input {
+                border-radius: 3px;
+                height: 30px;
+                border: 1px solid gray;
+                outline: none;
+                padding: 0 10px;
+            }
+            .select-form {
+                border: 1px solid gray;
+                outline-color: transparent ;
+                height: 30px;
+                border-color: gray;
+
+           
+        }
+       
+            
+        }
+        
+    }
+}

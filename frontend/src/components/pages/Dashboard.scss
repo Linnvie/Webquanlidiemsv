@@ -1,0 +1,142 @@
+.section-share {
+    &.section-featurednews {
+
+        background-color: #f5f5f5;
+    }
+
+    &.section-about {
+        height: 500px !important;
+        border-top: 1px solid #f5f5f5;
+        border-bottom: 1px solid #f5f5f5;
+        .section-content {
+            display: flex;
+            gap: 15px;
+            width: 100%;
+
+            .content-left {
+                width: 60% !important;
+                
+            }
+
+            .content-right {
+                width: 40%;
+                .home-about-right{
+                    text-align: justify;
+                    font-style: italic;
+                    padding-top: 15px;
+                    display: flex;
+
+                    span.home-icon {
+                        padding-right: 12px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-body {
+
+        .featurednews-customize {
+            .bg-image {
+                width: 296px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover ;
+                cursor: pointer;
+                background-color: #eee;
+                &.section-featurednews{
+                    background-image: url('../../assets/FeaturedNewImg/bonhiem.jpg');
+                }
+                &.section-notification {
+                    background-image: url('../../assets/Notification/Hoc-vien-CN-BCVT-HCM.jpg');
+
+                }
+            }
+        }
+
+        
+    }
+
+}
+
+.section-share {
+    height: 330px;
+
+
+    .section-container {
+        display: flex;
+        flex-direction: column;  
+        .section-header {
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+
+            .title-section {
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                float: right;
+                padding: 10px 15px;
+                display: block;
+                border: none;
+                outline: none;
+                background: #ebebeb;
+                color: #000;
+                cursor: pointer;
+                text-transform: uppercase;
+                &:hover {
+                    background: yellow;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+
+    
+
+    
+
+    
+}
+
+
+.slick-prev {
+    border: 1px solid orange !important;
+    left: 0 !important;
+    z-index: 1;
+    width: 44px !important;
+    height: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7 !important;
+    }
+}
+
+.slick-prev::before {
+    font-family: 'Glyphicons Halflings' !important;
+    color: red !important;
+}
+
+.slick-next {
+    border: 1px solid red !important;
+    right: 0 !important;
+    width: 44px !important;
+    height: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7 !important;
+    }
+}
+
+.slick-next::before {
+    font-family: 'Glyphicons Halflings' !important;
+    color: red !important;
+}
